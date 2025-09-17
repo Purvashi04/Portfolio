@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Purvashi Kupuli's Portfolio</title>
+   <style>
+    /* --- Global Styles --- */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f6f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    h1, h2, h3 {
+      margin: 0;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    /* --- Hero --- */
+    .hero {
+      background: linear-gradient(135deg, #2196f3, #3f51b5);
+      color: #fff;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    .hero h1 {
+      font-size: 42px;
+    }
+    .hero p {
+      margin: 15px 0;
+      font-size: 18px;
+    }
+    .hero .btn {
+      display: inline-block;
+      padding: 12px 25px;
+      margin-top: 20px;
+      border-radius: 25px;
+      background: #fff;
+      color: #2196f3;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .hero .btn:hover {
+      background: #333;
+      color: #fff;
+    }
+
+    /* --- About --- */
+    .about {
+      text-align: center;
+    }
+    .about p {
+      max-width: 700px;
+      margin: auto;
+    }
+
+    /* --- Skills --- */
+    .skills {
+      text-align: center;
+    }
+    .skills-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .skills-list span {
+      background: #e0e0e0;
+      padding: 10px 20px;
+      margin: 10px;
+      border-radius: 20px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .skills-list span:hover {
+      background: #2196f3;
+      color: #fff;
+    }
+
+    /* --- Projects --- */
+    .projects {
+      text-align: center;
+    }
+    .project-card {
+      background: #fff;
+      border-radius: 15px;
+      padding: 20px;
+      margin: 20px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      display: inline-block;
+      width: 280px;
+      vertical-align: top;
+    }
+    .project-card h3 {
+      color: #2196f3;
+    }
+    .project-card a {
+      color: #3f51b5;
+      font-weight: bold;
+    }
+    .project-card a:hover {
+      color: #000;
+    }
+
+    /* --- Contact --- */
+    .contact {
+      text-align: center;
+    }
+    .contact a {
+      display: inline-block;
+      margin: 10px;
+      font-size: 18px;
+      color: #2196f3;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .contact a:hover {
+      color: #000;
+    }
+
+    /* --- Footer --- */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: linear-gradient(135deg, #2196f3, #3f51b5);
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h1>Purvashi Kupuli</h1>
+    <p>Aspiring Software Engineer | Web Developer | Tech Enthusiast</p>
+    <a href="#contact" class="btn">Hire Me</a>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <h2>About Me</h2>
+    <p>
+      I am a passionate developer with expertise in building web applications and solving complex problems. I have a better understanding of data structures and algorithms, LSTM, and OOP concepts. I am currently studying Bachelor of Technology in Computer Science Engineering at National Institute of Technology, Silchar(2022-2026). I practice competitive programming on platforms like HackerRank and LeetCode.
+      Skilled in <strong>HTML, CSS, JavaScript, React, Node.js, Python, MySQL, C++</strong>.
+      I aim to contribute my skills to impactful projects and grow as a professional in the tech industry and looking forward to applying my knowledge in real-world scenarios.
+    </p>  
+     
+  <!-- Skills -->
+  <section class="skills" id="skills">
+    <h2>Skills</h2>
+    <div class="skills-list">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>React</span>
+      <span>Node.js</span>
+      <span>C++</span>
+      <span>Python</span>
+      <span>MySQL</span>
+      <span>Deep Learning</span>
+      <span>LSTM</span>
+      <span>Git & GitHub</span>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="projects" id="projects">
+    <h2>Projects</h2>
+     <div class="project-card">
+      <h3>LSTM Text Prediction</h3>
+      <p>Implemented an LSTM-based deep learning model for text sequence prediction.  
+         Trained on custom datasets, focusing on <strong>NLP, deep learning, and time-series data processing</strong>.</p>
+      <a href="https://github.com/Purvashi04/LSTM" target="_blank">View Project</a>
+    </div>
+     <div class="project-card">
+      <h3>Voice Assistant (J.A.R.V.I.S)</h3>
+      <p>Python-based voice assistant integrating speech recognition and AI-powered responses.</p>
+      <a href="https://github.com/Purvashi04/JarvisAI" target="_blank">View Project</a>
+    </div>
+    <div class="project-card">
+      <h3>Myntra Clone</h3>
+      <p>Built a functional clone of Myntra using only JavaScript, focusing on UI/UX and DOM manipulation.</p>
+      <a href="https://github.com/Purvashi04/Myntra-Clone" target="_blank">View Project</a>
+    </div>
+    <div class="project-card">
+      <h3>RouteRide</h3>
+      <p>A C++ ride-sharing system project applying OOP concepts like inheritance, ride management, and file handling.</p>
+      <a href="https://github.com/Purvashi04/RouteRide" target="_blank">View Project</a>
+    </div>
+
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <h2>Contact Me</h2>
+    <a href="mailto:purvashik04@gmail.com">📧 Email</a>
+    <a href="https://github.com/Purvashi04" target="_blank">💻 GitHub</a>
+    <a href="https://www.linkedin.com/in/purvashi-kupuli-053605262/" target="_blank">🔗 LinkedIn</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Purvashi Kupuli | Built with ❤️ and Code</p>
+  </footer>
+</body>
+</html>
