@@ -34,11 +34,3 @@ It showcases my skills, projects, and ways to connect with me.
 - GitHub: [github.com/yourusername](https://github.com/yourusername)  
 - LinkedIn: [linkedin.com/in/yourusername](https://linkedin.com/in/yourusername)  
 
----
-
-## How to Run Locally
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/portfolio.git
-
-# Open the index.html file in your browser
